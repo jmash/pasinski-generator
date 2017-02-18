@@ -5,11 +5,11 @@ function setup() {
   var tw=20;  // this is the width of each individual triangle
   var th=20;  // this is the height of each individual triangle
   var rows=32;// this is how many rows the pattern has
-  var fillOdd = [0, 0, 0];       // this sets the fill of all odd-numbered triangles
+  var fillOdd = [0, 0, 0];          // this sets the fill of all odd-numbered triangles
                                     // the parameters are [red, green, blue].
   var strokeOdd = [0, 0, 0];        // this sets the stroke of all odd-numbered triangles
                                     // the parameters are [red, green, blue].
-  var fillEven = [255, 255, 255];// this sets the fill of all even-numbered triangles
+  var fillEven = [255, 255, 255];   // this sets the fill of all even-numbered triangles
                                     // the parameters are [red, green, blue].
   var strokeEven = [-1, 0, 0];      // this sets the stroke of all even-numbered triangles
                                     // the parameters are [red, green, blue].
